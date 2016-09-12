@@ -24,13 +24,13 @@ angular.module('devmtnTravel', ['ui.router'])
             .state('booked',{
                 url:'/booked/:id',
                 templateUrl: "../views/booked.html",
-                controller: 'mainCtrl',
+                controller: 'bookedCtrl',
                 controllerAs: 'vm'
             })
             .state('locations',{
                 url:'/locations',
                 templateUrl: "../views/locations.html",
-                controller: 'mainCtrl',
+                controller: 'locationsCtrl',
                 controllerAs: 'vm'
             });
 
