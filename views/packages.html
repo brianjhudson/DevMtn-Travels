@@ -1,6 +1,4 @@
 <section class="packages-main">
-    <!-- This is where we need to repeat over our data that we are getting from our controller. The controller is getting the data from the service
-     If you haven't made teh controller do that now and include it on your state object in app.js-->
     <section class="package-card" ng-repeat="item in travelInfo">
         <img ng-src="{{item.image}}" alt="{{item.city}}">
         <h6>{{item.city}}</h6>
